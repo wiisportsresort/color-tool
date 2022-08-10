@@ -3372,7 +3372,7 @@ __metadata:
     eslint-config-next: 12.1.6
     next: 12.1.6
     postcss: ^8.4.16
-    postcss-color-contrast: "https://github.com/wiisportsresort/postcss-color-contrast.git#commit=aebea7bb14cea29a7fdb3f0c560480b8d42e6096"
+    postcss-color-contrast: "wiisportsresort/postcss-color-contrast#v1.0.0"
     postcss-flexbugs-fixes: ^5.0.2
     postcss-preset-env: ^7.7.2
     preact: ^10.10.1
@@ -3799,9 +3799,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-color-contrast@https://github.com/wiisportsresort/postcss-color-contrast.git#commit=aebea7bb14cea29a7fdb3f0c560480b8d42e6096":
+"postcss-color-contrast@wiisportsresort/postcss-color-contrast#v1.0.0":
   version: 1.0.0
-  resolution: "postcss-color-contrast@https://github.com/wiisportsresort/postcss-color-contrast.git#commit=aebea7bb14cea29a7fdb3f0c560480b8d42e6096"
+  resolution: "postcss-color-contrast@https://github.com/wiisportsresort/postcss-color-contrast.git#commit=165d60e6036a35394f906d6db642fd4d574fe5fb"
   dependencies:
     postcss-value-parser: ^4.2.0
   peerDependencies:
