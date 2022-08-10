@@ -1,7 +1,7 @@
 declare var self: ServiceWorkerGlobalScope
 export {} // avoids 'self' redeclaration error
 
-const EXPECTED_CACHES = ['app-v1']
+const EXPECTED_CACHES = ['app-v2']
 const OFFLINE_URL = '/'
 
 const iconSizes = [16, 24, 32, 48, 64, 96, 128, 192, 256, 512, 1024, 2048]
@@ -13,7 +13,7 @@ self.addEventListener('install', (event) => {
       const toDelete = allCaches.filter((cache) => !EXPECTED_CACHES.includes(cache))
       await Promise.all(toDelete.map((cache) => caches.delete(cache)))
 
-      const cache = await caches.open('app-v1')
+      const cache = await caches.open('app-v2')
       await cache.addAll([
         new Request(OFFLINE_URL, { cache: 'reload' }),
         ...iconSizes.map((size) => `/icon/${size}.png`),

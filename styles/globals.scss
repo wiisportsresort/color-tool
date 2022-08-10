@@ -1,0 +1,66 @@
+@use 'sass:list';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/WorkSans-alphanum.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  unicode-range: U+23, U+37, U+28-29, U+2C, U+2E, U+30-39, U+41-5A, U+61-7A;
+}
+/*
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/WorkSans-VariableFont_wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/WorkSans-Italic-VariableFont_wght.woff2') format('woff');
+  font-weight: 100 900;
+  font-style: italic;
+} */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: theme('fontFamily.sans');
+}
+
+.chip {
+  @apply flex items-center justify-center h-10 md:h-12 lg:h-16 cursor-pointer hover:border;
+}
+
+$colors: 'slate' 'gray' 'zinc' 'neutral' 'stone' 'red' 'orange' 'amber' 'yellow' 'lime' 'green'
+  'emerald' 'teal' 'cyan' 'sky' 'blue' 'indigo' 'violet' 'purple' 'fuchsia' 'pink' 'rose';
+$shades: 50 100 200 300 400 500 600 700 800 900;
+
+$light: theme('colors.neutral.200');
+$dark: theme('colors.neutral.900');
+
+// @function shadelist($color) {
+//   $output: ();
+
+//   @each $shade in $shades {
+//     $path: 'colors.#{$color}.#{$shade}';
+//     $output: list.append($output, theme($path));
+//   }
+
+//   @return list.join($output, (), 'comma');
+// }
+
+@each $color in $colors {
+  @each $shade in $shades {
+    .chip-#{$color}-#{$shade} {
+      $path: 'colors.#{$color}.#{$shade}';
+      background-color: theme($path);
+      color: color-contrast(theme($path) vs $light, $dark to AA);
+    }
+  }
+}

@@ -169,9 +169,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/linux-loong64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "@esbuild/linux-loong64@npm:0.14.53"
+"@esbuild/linux-loong64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "@esbuild/linux-loong64@npm:0.14.54"
   conditions: os=linux & cpu=loong64
   languageName: node
   linkType: hard
@@ -557,7 +557,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.11":
+"@types/react-dom@npm:^17.0.17":
   version: 17.0.17
   resolution: "@types/react-dom@npm:17.0.17"
   dependencies:
@@ -566,7 +566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17, @types/react@npm:^17.0.47":
+"@types/react@npm:^17, @types/react@npm:^17.0.48":
   version: 17.0.48
   resolution: "@types/react@npm:17.0.48"
   dependencies:
@@ -1720,171 +1720,171 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-android-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-android-64@npm:0.14.53"
+"esbuild-android-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-android-64@npm:0.14.54"
   conditions: os=android & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-android-arm64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-android-arm64@npm:0.14.53"
+"esbuild-android-arm64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-android-arm64@npm:0.14.54"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-darwin-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-darwin-64@npm:0.14.53"
+"esbuild-darwin-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-darwin-64@npm:0.14.54"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-darwin-arm64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-darwin-arm64@npm:0.14.53"
+"esbuild-darwin-arm64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-darwin-arm64@npm:0.14.54"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-freebsd-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-freebsd-64@npm:0.14.53"
+"esbuild-freebsd-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-freebsd-64@npm:0.14.54"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-freebsd-arm64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-freebsd-arm64@npm:0.14.53"
+"esbuild-freebsd-arm64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-freebsd-arm64@npm:0.14.54"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-linux-32@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-32@npm:0.14.53"
+"esbuild-linux-32@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-32@npm:0.14.54"
   conditions: os=linux & cpu=ia32
   languageName: node
   linkType: hard
 
-"esbuild-linux-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-64@npm:0.14.53"
+"esbuild-linux-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-64@npm:0.14.54"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-linux-arm64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-arm64@npm:0.14.53"
+"esbuild-linux-arm64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-arm64@npm:0.14.54"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-linux-arm@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-arm@npm:0.14.53"
+"esbuild-linux-arm@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-arm@npm:0.14.54"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"esbuild-linux-mips64le@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-mips64le@npm:0.14.53"
+"esbuild-linux-mips64le@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-mips64le@npm:0.14.54"
   conditions: os=linux & cpu=mips64el
   languageName: node
   linkType: hard
 
-"esbuild-linux-ppc64le@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-ppc64le@npm:0.14.53"
+"esbuild-linux-ppc64le@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-ppc64le@npm:0.14.54"
   conditions: os=linux & cpu=ppc64
   languageName: node
   linkType: hard
 
-"esbuild-linux-riscv64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-riscv64@npm:0.14.53"
+"esbuild-linux-riscv64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-riscv64@npm:0.14.54"
   conditions: os=linux & cpu=riscv64
   languageName: node
   linkType: hard
 
-"esbuild-linux-s390x@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-linux-s390x@npm:0.14.53"
+"esbuild-linux-s390x@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-linux-s390x@npm:0.14.54"
   conditions: os=linux & cpu=s390x
   languageName: node
   linkType: hard
 
-"esbuild-netbsd-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-netbsd-64@npm:0.14.53"
+"esbuild-netbsd-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-netbsd-64@npm:0.14.54"
   conditions: os=netbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-openbsd-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-openbsd-64@npm:0.14.53"
+"esbuild-openbsd-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-openbsd-64@npm:0.14.54"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-sunos-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-sunos-64@npm:0.14.53"
+"esbuild-sunos-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-sunos-64@npm:0.14.54"
   conditions: os=sunos & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-windows-32@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-windows-32@npm:0.14.53"
+"esbuild-windows-32@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-windows-32@npm:0.14.54"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"esbuild-windows-64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-windows-64@npm:0.14.53"
+"esbuild-windows-64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-windows-64@npm:0.14.54"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-windows-arm64@npm:0.14.53":
-  version: 0.14.53
-  resolution: "esbuild-windows-arm64@npm:0.14.53"
+"esbuild-windows-arm64@npm:0.14.54":
+  version: 0.14.54
+  resolution: "esbuild-windows-arm64@npm:0.14.54"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.14.53":
-  version: 0.14.53
-  resolution: "esbuild@npm:0.14.53"
+"esbuild@npm:^0.14.54":
+  version: 0.14.54
+  resolution: "esbuild@npm:0.14.54"
   dependencies:
-    "@esbuild/linux-loong64": 0.14.53
-    esbuild-android-64: 0.14.53
-    esbuild-android-arm64: 0.14.53
-    esbuild-darwin-64: 0.14.53
-    esbuild-darwin-arm64: 0.14.53
-    esbuild-freebsd-64: 0.14.53
-    esbuild-freebsd-arm64: 0.14.53
-    esbuild-linux-32: 0.14.53
-    esbuild-linux-64: 0.14.53
-    esbuild-linux-arm: 0.14.53
-    esbuild-linux-arm64: 0.14.53
-    esbuild-linux-mips64le: 0.14.53
-    esbuild-linux-ppc64le: 0.14.53
-    esbuild-linux-riscv64: 0.14.53
-    esbuild-linux-s390x: 0.14.53
-    esbuild-netbsd-64: 0.14.53
-    esbuild-openbsd-64: 0.14.53
-    esbuild-sunos-64: 0.14.53
-    esbuild-windows-32: 0.14.53
-    esbuild-windows-64: 0.14.53
-    esbuild-windows-arm64: 0.14.53
+    "@esbuild/linux-loong64": 0.14.54
+    esbuild-android-64: 0.14.54
+    esbuild-android-arm64: 0.14.54
+    esbuild-darwin-64: 0.14.54
+    esbuild-darwin-arm64: 0.14.54
+    esbuild-freebsd-64: 0.14.54
+    esbuild-freebsd-arm64: 0.14.54
+    esbuild-linux-32: 0.14.54
+    esbuild-linux-64: 0.14.54
+    esbuild-linux-arm: 0.14.54
+    esbuild-linux-arm64: 0.14.54
+    esbuild-linux-mips64le: 0.14.54
+    esbuild-linux-ppc64le: 0.14.54
+    esbuild-linux-riscv64: 0.14.54
+    esbuild-linux-s390x: 0.14.54
+    esbuild-netbsd-64: 0.14.54
+    esbuild-openbsd-64: 0.14.54
+    esbuild-sunos-64: 0.14.54
+    esbuild-windows-32: 0.14.54
+    esbuild-windows-64: 0.14.54
+    esbuild-windows-arm64: 0.14.54
   dependenciesMeta:
     "@esbuild/linux-loong64":
       optional: true
@@ -1930,7 +1930,7 @@ __metadata:
       optional: true
   bin:
     esbuild: bin/esbuild
-  checksum: cd62d3bc805c6c2ff2cfe62c2fbe6a6d617783d5095167df861be7ddba464281f719a5ded2e940ba21838abf58cce8259daffa08667515c4396ff7bf683f5b70
+  checksum: 49e360b1185c797f5ca3a7f5f0a75121494d97ddf691f65ed1796e6257d318f928342a97f559bb8eced6a90cf604dd22db4a30e0dbbf15edd9dbf22459b639af
   languageName: node
   linkType: hard
 
@@ -3361,23 +3361,25 @@ __metadata:
     "@types/node": ^17.0.45
     "@types/postcss-flexbugs-fixes": ^4.2.1
     "@types/postcss-preset-env": ^7.7.0
-    "@types/react": ^17.0.47
-    "@types/react-dom": ^17.0.11
+    "@types/react": ^17.0.48
+    "@types/react-dom": ^17.0.17
     "@wiisportsresorts/eslint-config": ^1.2.0
     common-tags: ^1.8.2
     cssnano: ^5.1.12
     dotenv: ^16.0.1
-    esbuild: ^0.14.53
+    esbuild: ^0.14.54
     eslint: 8.18.0
     eslint-config-next: 12.1.6
     next: 12.1.6
+    postcss: ^8.4.16
+    postcss-color-contrast: "https://github.com/wiisportsresort/postcss-color-contrast.git#commit=aebea7bb14cea29a7fdb3f0c560480b8d42e6096"
     postcss-flexbugs-fixes: ^5.0.2
-    postcss-preset-env: ^7.7.1
+    postcss-preset-env: ^7.7.2
     preact: ^10.10.1
     react: 17.0.2
     react-dom: 17.0.2
-    sass: ^1.52.3
-    tailwindcss: ^3.1.4
+    sass: ^1.54.4
+    tailwindcss: ^3.1.8
     typescript: 4.7.4
   languageName: unknown
   linkType: soft
@@ -3794,6 +3796,17 @@ __metadata:
   peerDependencies:
     postcss: ^8.4.6
   checksum: 118eec936b3b035dc8d75c89973408f15c5a3de3d1ee210a2b3511e3e431d9c56e6f354b509a90540241e2225ffe3caaa2fdf25919c63348ce4583a28ada642c
+  languageName: node
+  linkType: hard
+
+"postcss-color-contrast@https://github.com/wiisportsresort/postcss-color-contrast.git#commit=aebea7bb14cea29a7fdb3f0c560480b8d42e6096":
+  version: 1.0.0
+  resolution: "postcss-color-contrast@https://github.com/wiisportsresort/postcss-color-contrast.git#commit=aebea7bb14cea29a7fdb3f0c560480b8d42e6096"
+  dependencies:
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: "*"
+  checksum: 7b24c4f9d989044e6fbf8d5d3cdf9049d560f935be4d43d1329b0106cf047b135cb063ee6194be850021b422081578f9d33f96aaeb4cd6e0da01be8b0b5c5be0
   languageName: node
   linkType: hard
 
@@ -4346,7 +4359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:^7.7.1":
+"postcss-preset-env@npm:^7.7.2":
   version: 7.7.2
   resolution: "postcss-preset-env@npm:7.7.2"
   dependencies:
@@ -4518,7 +4531,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.14":
+"postcss@npm:^8.4.14, postcss@npm:^8.4.16":
   version: 8.4.16
   resolution: "postcss@npm:8.4.16"
   dependencies:
@@ -4783,16 +4796,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.52.3":
-  version: 1.54.3
-  resolution: "sass@npm:1.54.3"
+"sass@npm:^1.54.4":
+  version: 1.54.4
+  resolution: "sass@npm:1.54.4"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 9b405f602c0dcdad85e7f216cfa5ca9dfe3f7ded7b3928817cfe8dbfde0cd27b70f4cff724e229b233b3f51a06e71d3fcbbd7d3a0ff92b3e40ac57bc05b90b48
+  checksum: bb6aead09764de450a02b9a66e4ee538f0ba6bc8f2fc3905c71b2c302b5f47e089b510b86cfa7ef2d4139c210c8abf99fe157e7a5bd356c057f10d29e6c4b44c
   languageName: node
   linkType: hard
 
@@ -5072,7 +5085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.1.4":
+"tailwindcss@npm:^3.1.8":
   version: 3.1.8
   resolution: "tailwindcss@npm:3.1.8"
   dependencies:

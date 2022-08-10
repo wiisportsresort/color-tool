@@ -26,8 +26,8 @@ const Home = (): JSX.Element => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className=" lg:text-xl md:text-base text-xs mx-8 lg:max-w-6xl">
-        <form onSubmit={(e) => e.preventDefault()} className="flex flex-wrap justify-end mb-2">
+      <div className="lg:text-xl md:text-base text-xs mx-8 lg:max-w-6xl">
+        <form onSubmit={(e) => e.preventDefault()} className="mt-2 flex flex-wrap justify-end mb-2">
           {Object.values(CopyMode).map((mode, i) => (
             <label key={i} className="inline-flex items-center ml-2">
               <input
@@ -54,10 +54,7 @@ const Home = (): JSX.Element => {
                 {Object.entries(shades!).map(([shade, color], i) => (
                   <div
                     key={i}
-                    className={`flex items-center justify-center h-10 md:h-12 lg:h-16 cursor-pointer hover:border ${
-                      parseInt(shade) >= 600 ? 'text-neutral-200' : 'hover:border-black'
-                    }`}
-                    style={{ background: color }}
+                    className={`chip chip-${name}-${shade}`}
                     onClick={() => {
                       clearTimeout(lastCopiedTimeout)
                       navigator.clipboard.writeText(formatColor(color, copyMode))
